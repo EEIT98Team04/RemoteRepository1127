@@ -11,7 +11,7 @@
 <h1>87?</h1>
 <h2>4ni</h2>
 <h3>4wo</h3>
-<h3>Demo Welcome ${user.email}</h3>
+<h3>YOYOYO Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp"/>">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp"/>">Poduct</a></h3>
 
