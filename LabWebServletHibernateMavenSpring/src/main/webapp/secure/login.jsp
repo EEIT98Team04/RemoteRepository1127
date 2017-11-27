@@ -33,5 +33,7 @@
 </table>
 </form>
 
+<a href="${pageContext.request.contextPath}/index.jsp">回首頁</a>
+
 </body>
 </html>
