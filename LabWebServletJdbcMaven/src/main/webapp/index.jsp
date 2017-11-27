@@ -12,8 +12,10 @@
 <h3>Demo Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp"/>">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp"/>">Poduct</a></h3>
+
 <c:if test="${not empty user}">
 <h3><a href="<c:url value="/secure/logout.controller"/>">Logout</a></h3>
 </c:if>
+
 </body>
 </html>
