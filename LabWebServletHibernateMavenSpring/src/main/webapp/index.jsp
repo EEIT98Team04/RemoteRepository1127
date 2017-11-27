@@ -9,15 +9,10 @@
 </head>
 <body>
 
-<h1>87?</h1>
-<h2>4ni</h2>
 <h3>Demo Welcome ${user.email}</h3>
 <h3><a href="<c:url value="/secure/login.jsp"/>">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp"/>">Poduct</a></h3>
-
-<c:if test="${not empty user}">
-<h3><a href="<c:url value="/secure/logout.controller"/>">Logout</a></h3>
-</c:if>
-
+<h1>87?</h1>
+<h1>沒錯</h1>
 </body>
 </html>
