@@ -31,8 +31,13 @@
 		<td align="right"><input type="submit" value="Login"></td>
 	</tr>
 </table>
+<<<<<<< HEAD
+</form>
+
+=======
 
 </form>
 <a href="${pageContext.request.contextPath}/index.jsp">回首頁</a>
+>>>>>>> branch 'master' of https://github.com/EEIT98Team04/RemoteRepository1127.git
 </body>
 </html>

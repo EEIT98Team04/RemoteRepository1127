@@ -25,8 +25,10 @@ function clearForm() {
 <h3>Welcome ${user.custid} </h3>
 
 
+
 <h3>Product Table</h3>
 <a href="${pageContext.request.contextPath}/index.jsp">回首頁</a>
+>>>>>>> branch 'master' of https://github.com/EEIT98Team04/RemoteRepository1127.git
 <form action="<c:url value="/pages/product.controller" />" method="get">
 <table>
 	<tr>
@@ -99,9 +101,7 @@ function clearForm() {
 	<tr><td>Expire</td><td>${update.expire}</td></tr>
 </table>
 <script type="text/javascript">clearForm();</script>
-<<<<<<< HEAD
 </c:if>
-
 <a href="<c:url value='/index.jsp' />">回首頁</a>
 
 </body>
