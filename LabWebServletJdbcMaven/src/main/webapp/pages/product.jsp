@@ -24,6 +24,7 @@ function clearForm() {
 
 <h3>Welcome ${user.custid} </h3>
 
+
 <h3>Product Table</h3>
 <a href="${pageContext.request.contextPath}/index.jsp">回首頁</a>
 <form action="<c:url value="/pages/product.controller" />" method="get">
