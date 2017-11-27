@@ -99,6 +99,6 @@ function clearForm() {
 </table>
 <script type="text/javascript">clearForm();</script>
 </c:if>
-
+<a href="<c:url value='/index.jsp' />">回首頁</a>
 </body>
 </html>
