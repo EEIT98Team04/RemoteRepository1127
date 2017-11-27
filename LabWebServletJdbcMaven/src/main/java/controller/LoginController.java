@@ -51,7 +51,6 @@ public class LoginController {
 			return "login.error";
 		} else {
 			model.addAttribute("user", bean);
-			System.out.println("沒有錯誤");
 			return "login.success";
 		}
 	}

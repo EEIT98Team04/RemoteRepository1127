@@ -99,6 +99,5 @@ function clearForm() {
 </table>
 <script type="text/javascript">clearForm();</script>
 </c:if>
-
 </body>
 </html>
